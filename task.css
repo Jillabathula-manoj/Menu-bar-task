@@ -1,0 +1,49 @@
+
+body{
+ 
+  background: white;
+  display: grid;
+  place-items: center;
+
+}
+table.menu {
+    width: 300px;
+    height: 300px;
+    border-spacing: 0px;
+    border: solid black 2px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: none;
+    text-align: center;
+    margin-top: 70px;
+ 
+  }
+  
+  td.header {
+    background: yellow;
+    text-align: center;
+    font-weight: bold;
+    border-left: solid black 1px;
+    border-radius: 0px;
+    padding: 2px;
+    
+  }
+td.hover {
+ text-align: center;
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+  padding: 2px
+}
+
+
+
+  /*--- hover effects ---*/
+
+td.hover:hover {
+  background-color: #000;
+  color: white;
+}
+p{
+  font-size: 10px;
+  
+}
